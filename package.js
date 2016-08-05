@@ -6,11 +6,13 @@ Package.describe({
   documentation: 'README.md'
 });
 
-Package.onUse(function(api) {
-  api.versionsFrom("METEOR@0.9.1.1");
+Package.onUse(function (api) {
+  api.versionsFrom("METEOR@1.2");
 
   api.add_files([
     'dist/sweetalert.css',
     'dist/sweetalert-dev.js'
   ], ['client']);
+
+  api.export(['sweetAlert'], 'client');
 });
