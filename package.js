@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jss:sweetalert',
-  version: '1.0.0',
+  version: '1.0.1',
   summary: 'A beautiful replacement for JavaScript\'s \"alert\".',
   git: 'https://github.com/JSSolutions/meteor-sweetalert',
   documentation: 'README.md'
